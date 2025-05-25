@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>واجهة موقع الجهاز</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في جهازك</h1>
+    </header>
+    <main>
+        <section id="device-info">
+            <h2>معلومات الجهاز</h2>
+            <ul>
+                <li>اسم الجهاز: <span id="device-name">-</span></li>
+                <li>الحالة: <span id="device-status">-</span></li>
+            </ul>
+        </section>
+        <section id="controls">
+            <h2>التحكم بالجهاز</h2>
+            <button onclick="turnOn()">تشغيل</button>
+            <button onclick="turnOff()">إيقاف</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 جهازك</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
